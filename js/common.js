@@ -8,7 +8,7 @@
         
         // header ajax
         $.ajax({
-            url : '../common/header.html', // 읽어올 파일의 경로 (클라이언트가 요청을 보낼 서버의 URL 주소)
+            url : './common/header.html', // 읽어올 파일의 경로 (클라이언트가 요청을 보낼 서버의 URL 주소)
             async : false, // 서버 호출 방식 설정 (true(비동기식), false(동기식))(기본값 true)
             success : function (data) { // 데이터 주고받기 성공했을 경우
                 $('#header').prepend(data);
@@ -19,7 +19,7 @@
         })
         // footer ajax
         $.ajax({
-            url : '../common/footer.html', // 읽어올 파일의 경로 (클라이언트가 요청을 보낼 서버의 URL 주소)
+            url : './common/footer.html', // 읽어올 파일의 경로 (클라이언트가 요청을 보낼 서버의 URL 주소)
             async : false, // 서버 호출 방식 설정 (true(비동기식), false(동기식))(기본값 true)
             success : function (data) { // 데이터 주고받기 성공했을 경우
                 $('#footer').prepend(data);
