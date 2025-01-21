@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+header,main,footer,section,article,nav,aside,canvas,details,figure,figcaption,textarea{display:block;}
+span,a,button,input,output,select,label,canvas,audio,video,progress{display:inline-block}
+html,body,header,main,footer,section,article,nav,aside,div,
+h1,h2,h3,h4,h5,h6,p,span,em,b,strong,address,i,ruby,
+menu,ul,ol,li,dl,dt,dd,
+table,caption,thead,tbody,tfoot,th,td,
+fieldset,form,label,a,button,input,output,textarea,select,
+canvas,details,figure,figcaption,audio,video,img,object,embed,iframe,time,mark,progress{margin:0;padding:0;border:none;font:inherit;color:inherit;word-break:keep-all;vertical-align:baseline;box-sizing:border-box;}
+img{border:none;font-size:0;line-height:0;vertical-align:top;}
+b,strong{font-weight:600;}
+address,cite,dfn,em,i{font-style:normal;}
+menu,ul,ol,li,dl,dt,dd{list-style:none;}
+table{width:100%;border-collapse:collapse;border-spacing:0;}
+a,button,select,label,[type=button],[type=reset],[type=submit]{overflow:visible;border-color:transparent;background-color:transparent;text-decoration:none;text-transform:none;cursor:pointer;}
+a:hover,button:hover,select:hover,label:hover,[type=button]:hover,[type=reset]:hover,[type=submit]:hover{text-decoration:none;}
+fieldset{min-width:0}
+input[type=checkbox],input[type=radio]{padding:0;border:none;}
+input[type=file]::-webkit-file-upload-button{font:inherit;-webkit-appearance:button;-moz-appearance:button;border:1px solid #bbb;background:#e0e0e0;box-shadow:none;}
+input[disabled],select:disabled{background-color:#ebebeb;}
+textarea{overflow:auto;resize:vertical;}
+audio,img,video{max-width:100%;max-height:100%;}
+:after,:before{display:none;content:'';}
+caption,legend,.skip{display:block;visibility:visible;position:absolute;left:0;top:0;width:1px;height:1px;font-size:0;line-height:0;color:transparent;}
+.hide{display:none;}

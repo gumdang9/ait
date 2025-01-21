@@ -1,0 +1,83 @@
+@charset "UTF-8";
+
+/* sub common - S */
+/* sub common - E */
+
+/* sub visual - S */
+.subVisual{display:block;width:100%;background-color:rgba(51, 51, 51, 0.6);}
+.subVisual .visualWrap{display:block;width:100%;max-width:1920px;height:400px;margin:0 auto;padding-top:70px;background-size:cover;background-position:center center;box-sizing:border-box;}
+.wo .subVisual .visualWrap{background-image:url(../img/common/1920x920.png);}
+.ch .subVisual .visualWrap{background-image:url(../img/common/1920x920.png);}
+.co .subVisual .visualWrap{background-image:url(../img/common/1920x920.png);}
+.subVisual .visualWrap .pageTitle{display:block;position:relative;top:48%;width:100%;font-weight:500;font-size:50px;line-height:70px;color:#fff;font-family:'pop','Malgun Gothic','맑은 고딕',Dotum,'돋움',Helvetica,AppleSDGothicNeo,sans-serif;letter-spacing:0;text-align:center;word-break:keep-all;transform:translateY(-50%);}
+/* sub visual - E */
+
+/* sub layout - S */
+.contents{display:block;width:100%;padding-top:60px;padding-bottom:100px;}
+.contents .contentsWrap{display:block;width:100%;}
+.contents .contentsWrap .tabWrap{display:block;width:100%;}
+.contents .contentsWrap .tabWrap .tabMenu{display:block;width:100%;}
+.contents .contentsWrap .tabWrap .tabMenu .tabList{display:block;width:100%;margin-bottom:30px;font-size:0;line-height:0;text-align:center;}
+.contents .contentsWrap .tabWrap .tabMenu .tabList .tabItem{display:inline-block;margin-right:15px;vertical-align:top;}
+.contents .contentsWrap .tabWrap .tabMenu .tabList .tabItem.active{}
+.contents .contentsWrap .tabWrap .tabMenu .tabList .tabItem .btn{display:block;width:auto;height:50px;padding-right:20px;padding-left:50px;border-radius:25px;background-color:rgba(255, 255, 255, 0.7);transition:background-color 0.3s;}
+.contents .contentsWrap .tabWrap .tabMenu .tabList .tabItem.active .btn,
+.contents .contentsWrap .tabWrap .tabMenu .tabList .tabItem:hover .btn{background-color:#fff;}
+.contents .contentsWrap .tabWrap .tabMenu .tabList .tabItem .btn .icon{display:block;position:absolute;left:5px;top:50%;width:40px;height:40px;border-radius:100%;border:solid 2px rgba(255, 255, 255, 0);vertical-align:top;transform:translateY(-50%);transition:border-color 0.3s;}
+.contents .contentsWrap .tabWrap .tabMenu .tabList .tabItem.active .btn .icon{border-color:#fd0;}
+.contents .contentsWrap .tabWrap .tabMenu .tabList .tabItem .btn span{display:inline-block;font-weight:500;font-size:18px;line-height:24px;color:#000;font-family:'laund','Malgun Gothic','맑은 고딕',Dotum,'돋움',Helvetica,AppleSDGothicNeo,sans-serif;letter-spacing:-0.03em;}
+.contents .contentsWrap .tabWrap .tabContents{display:block;width:100%;}
+.contents .contentsWrap .tabWrap .tabContents .contentItem{width:100%;min-height:500px;border-radius:30px;background-color:rgba(255, 255, 255, 0.15);}
+.contents .contentsWrap .tabWrap .tabContents .contentItem.active{}
+/* sub layout - E */
+
+/* comics list - S */
+.contents .comicsList{display:block;width:100%;padding:35px 50px;font-size:0;line-height:0;text-align:center;}
+.contents .comicsList .comicsItem{display:inline-block;width:15%;margin-top:15px;margin-right:2%;vertical-align:top;}
+.contents .comicsList .comicsItem:nth-child(6n),
+.contents .comicsList .comicsItem:last-child{margin-right:0;}
+.contents .comicsList .comicsItem .link{display:block;width:100%;padding:15px;border-radius:15px;background-color:#fff;}
+.contents .comicsList .comicsItem .link .imgBox{display:block;position:relative;width:100%;height:auto;margin-bottom:10px;padding-top:80%;border-radius:10px;background-color:#ddd;}
+.contents .comicsList .comicsItem .link .imgBox .fakeImg{display:block;position:absolute;left:0;top:0;width:100%;height:100%;background-size:cover;background-position:center center;background-repeat:no-repeat;}
+.contents .comicsList .comicsItem .link .titleBox{display:block;width:100%;height:40px;}
+.contents .comicsList .comicsItem .link .titleBox .title{display:block;overflow:hidden;position:relative;top:50%;max-height:100%;font-weight:400;font-size:17px;line-height:20px;color:#555;font-family:'laund','Malgun Gothic','맑은 고딕',Dotum,'돋움',Helvetica,AppleSDGothicNeo,sans-serif;letter-spacing:-0.03em;transform:translateY(-50%);}
+/* comics list - E */
+
+/* comics detail - S */
+.comicsDetail{display:block;width:100%;}
+.comicsDetail .buttonWrap{display:block;width:100%;margin-bottom:30px;font-size:0;line-height:0;text-align:center;}
+.comicsDetail .buttonWrap .buttonBox{display:inline-block;margin-right:15px;vertical-align:top;}
+.comicsDetail .buttonWrap .buttonBox:last-child{margin-right:0;}
+.comicsDetail .buttonWrap .buttonBox .link{display:block;width:auto;height:50px;padding-right:20px;padding-left:50px;border-radius:25px;background-color:#fff;}
+.comicsDetail .buttonWrap .buttonBox .link .icon{display:inline-block;position:absolute;left:10px;top:50%;width:30px;height:30px;border-radius:100%;background-image:url();background-size:100%;vertical-align:top;transform:translateY(-50%);}
+.comicsDetail .buttonWrap .buttonBox.first .link .icon{background-position-y:-100%;}
+.comicsDetail .buttonWrap .buttonBox .link span{display:inline-block;position:relative;top:50%;font-weight:500;font-size:18px;line-height:24px;color:#000;font-family:'laund','Malgun Gothic','맑은 고딕',Dotum,'돋움',Helvetica,AppleSDGothicNeo,sans-serif;letter-spacing:-0.03em;transform:translateY(-50%);}
+.comicsDetail .detailList{display:block;width:100%;padding:15px 30px 30px;border-radius:30px;background-color:rgba(255, 255, 255, 0.4);font-size:0;line-height:0;text-align:center;box-sizing:border-box;}
+.comicsDetail .detailList .detailItem{display:inline-block;width:9.1%;margin-top:15px;margin-right:1%;vertical-align:top;}
+.comicsDetail .detailList .detailItem:nth-child(10n),
+.comicsDetail .detailList .detailItem:last-child{margin-right:0;}
+.comicsDetail .detailList .detailItem .link{display:block;width:100%;padding:15px;border-radius:15px;background-color:#fff;}
+.comicsDetail .detailList .detailItem .link .imgBox{display:block;position:relative;width:100%;height:auto;margin-bottom:10px;padding-top:80%;border-radius:10px;background-color:#ddd;}
+.comicsDetail .detailList .detailItem .link .imgBox .fakeImg{display:block;position:absolute;left:0;top:0;width:100%;height:100%;background-size:cover;background-position:center center;background-repeat:no-repeat;}
+.comicsDetail .detailList .detailItem .link .titleBox{display:block;width:100%;height:40px;}
+.comicsDetail .detailList .detailItem .link .titleBox .title{display:block;overflow:hidden;position:relative;top:50%;max-height:100%;font-weight:400;font-size:17px;line-height:20px;color:#555;font-family:'laund','Malgun Gothic','맑은 고딕',Dotum,'돋움',Helvetica,AppleSDGothicNeo,sans-serif;letter-spacing:-0.03em;transform:translateY(-50%);}
+/* comics detail - E */
+
+/* comics view - S */
+.sub.co.view .subVisual{display:none;}
+.sub.co.view .contents{padding:0;}
+.sub.co.view .contentsWrap .comicsView{display:block;width:100%;min-height:600px}
+.sub.co.view .contentsWrap .comicsView .comicsImg{display:block;width:100%;min-width:100%;max-width:100%;pointer-events:none;}
+.sub.co.view .controlButtons{display:block;opacity:1;visibility:visible;position:fixed;left:0;top:50%;width:100%;height:0;transition-property:opacity,visibility;transition-duration:0.3s;}
+.wheelDown .sub.co.view .controlButtons{opacity:0;visibility:hidden;}
+.sub.co.view .controlButtons .buttonBox{display:block;position:absolute;}
+.sub.co.view .controlButtons .buttonBox.prev{left:1%;top:0;}
+.sub.co.view .controlButtons .buttonBox.next{right:1%;top:0;}
+.sub.co.view .controlButtons .buttonBox .link{display:block;width:50px;height:50px;border-radius:100%;background-color:rgba(0, 0, 0, 0.2);}
+.sub.co.view .controlButtons .buttonBox .link .icon{display:block;position:relative;width:100%;height:100%;}
+.sub.co.view .bottomButtons{display:block;width:100%;padding-top:30px;padding-bottom:80px;font-size:0;line-height:0;text-align:center;}
+.sub.co.view .bottomButtons .buttonBox{display:inline-block;vertical-align:top;}
+.sub.co.view .bottomButtons .buttonBox .link{display:block;position:relative;height:50px;padding-right:20px;padding-left:50px;border-radius:25px;background-color:rgba(0, 0, 0, 0.2);}
+.sub.co.view .bottomButtons .buttonBox .link .icon{display:block;position:absolute;left:5px;top:50%;width:40px;height:40px;background-color:rgba(0, 0, 0, 0.1);background-image:url();background-size:100%;background-position-y:-100%;transform:translateY(-50%);}
+.sub.co.view .bottomButtons .buttonBox .link span{display:block;position:relative;top:50%;font-weight:400;font-size:18px;line-height:22px;color:#333;transform:translateY(-50%);}
+/* comics view - E */
