@@ -167,7 +167,7 @@ body{transition:background-color 0.5s;}
 .changeOn #header{opacity:0;top:-70px;}
 .changeOn #main{opacity:0;}
 .changeOn .footerWrap .memPromo{opacity:0;}
-body{background-color:#282c49;}
+body{background-color:#121e65;}
 .theme1 body{background-color:#5d81b9;}
 .theme2 body{background-color:#d0a961;}
 .theme3 body{background-color:#372083;}
