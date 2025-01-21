@@ -5,34 +5,34 @@
 @font-face{
     font-family:'laund';
     font-weight:600;
-    src:url('./font/LaundryGothic-Bold.woff') format('woff');
+    src:url('../font/LaundryGothic-Bold.woff') format('woff');
 }
 @font-face{
     font-family:'laund';
     font-weight:400;
-    src:url('./font/LaundryGothic-Regular.woff') format('woff');
+    src:url('../font/LaundryGothic-Regular.woff') format('woff');
 }
 /* esamanru 딱딱한 필체 */
 @font-face{
     font-family:'esa';
     font-weight:600;
-    src:url('./font/esamanru Bold.woff2') format('woff2'),url('./font/esamanru Bold.woff') format('woff');
+    src:url('../font/esamanru Bold.woff2') format('woff2'),url('../font/esamanru Bold.woff') format('woff');
 }
 @font-face{
     font-family:'esa';
     font-weight:400;
-    src:url('./font/esamanru Medium.woff2') format('woff2'),url('./font/esamanru Medium.woff') format('woff');
+    src:url('../font/esamanru Medium.woff2') format('woff2'),url('../font/esamanru Medium.woff') format('woff');
 }
 @font-face{
     font-family:'esa';
     font-weight:200;
-    src:url('./font/esamanru Light.woff2') format('woff2'),url('./font/esamanru Light.woff') format('woff');
+    src:url('../font/esamanru Light.woff2') format('woff2'),url('../font/esamanru Light.woff') format('woff');
 }
 /* Gugi 둥글고 끊어짐, 점 */
 @font-face{
     font-family:'gugi';
     font-weight:400;
-    src:url('./font/Gugi-Regular.woff2') format('woff2'),url('./font/Gugi-Regular.woff') format('woff');
+    src:url('../font/Gugi-Regular.woff2') format('woff2'),url('../font/Gugi-Regular.woff') format('woff');
 }
 /* basic - E */
 
@@ -41,7 +41,7 @@
 @font-face{
     font-family:'pop';
     font-weight:400;
-    src:url('./font/ONE_Mobile_POP.woff2') format('woff2'),url('./font/ONE_Mobile_POP.woff') format('woff');
+    src:url('../font/ONE_Mobile_POP.woff2') format('woff2'),url('../font/ONE_Mobile_POP.woff') format('woff');
 }
 /* title - E */
 
@@ -50,19 +50,19 @@
 @font-face{
     font-family:'pen';
     font-weight:400;
-    src:url('./font/NanumPenScript-Regular.woff') format('woff');
+    src:url('../font/NanumPenScript-Regular.woff') format('woff');
 }
 /* Ownglyph UWY Si woo */
 @font-face{
     font-family:'own';
     font-weight:400;
-    src:url('./font/Ownglyph_2022_UWY_Si_Woo-Rg.woff2') format('woff2'),url('./font/Ownglyph_2022_UWY_Si_Woo-Rg.woff') format('woff');
+    src:url('../font/Ownglyph_2022_UWY_Si_Woo-Rg.woff2') format('woff2'),url('../font/Ownglyph_2022_UWY_Si_Woo-Rg.woff') format('woff');
 }
 /* Kablammo 외계인 */
 @font-face{
     font-family:'kab';
     font-weight:400;
-    src:url('./font/Kablammo-Regular.woff2') format('woff2'),url('./font/Kablammo-Regular.woff') format('woff');
+    src:url('../font/Kablammo-Regular.woff2') format('woff2'),url('../font/Kablammo-Regular.woff') format('woff');
 }
 /* point - E */
 
@@ -74,6 +74,6 @@
 @font-face{
     font-family:'moi';
     font-weight:400;
-    src:url('./font/MoiraiOne-Regular.woff') format('woff');
+    src:url('../font/MoiraiOne-Regular.woff') format('woff');
 }
 /* decoration - E */
